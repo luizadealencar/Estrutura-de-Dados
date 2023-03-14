@@ -1,0 +1,20 @@
+Para compilar o arquivo principal:
+gcc -g -Wall -std=c99 -pedantic -c main.c
+
+Para compilar o arquivo .c:
+gcc -g -Wall -std=c99 -pedantic -c torredehanoi.c
+
+
+Para compilar o arquivo .c:
+gcc -g -Wall -std=c99 -pedantic -c torredehanoi.h
+
+Para executar o programa:
+gcc -g -Wall -std=c99 -pedantic -o jogo.exe main.c torredehanoi.c
+
+Se quiser que apareça as impressões:
+./jogo.exe 4 -v
+No lugar do 4 pode colocar qualquer número.
+
+Se não quiser que apareça as impressões:
+./jogo.exe 4
+No lugar do 4 pode colocar qualquer número.
